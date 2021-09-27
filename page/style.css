@@ -290,6 +290,7 @@ p {
 	justify-content: center;
 	flex-direction: column;
 	padding: 30px;
+	height: 60vh;
 	border-radius: 10px;
 	background-image: url(./img/img-1.png);
 	background-size: cover;
