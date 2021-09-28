@@ -23,3 +23,20 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+
+//read more
+let btn = document.querySelectorAll('.detail');
+for(let i = 0; i < btn.length; i++){
+	btn[i].addEventListener('click', function(){
+		btn[i].parentNode.classList.toggle('show-more')
+		if(btn[i].innerText === 'DETAILS')
+		{
+			btn[i].innerText = "LESS DETAILS"
+		}
+		else
+		{
+			btn[i].innerText = "DETAILS"
+		}
+	})
+}
